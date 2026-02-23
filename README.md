@@ -70,6 +70,3 @@ The API expects a JSON object with a key named `symptoms` containing a list of s
 {
   "symptoms": ["itching", "skin_rash", "fatigue"]
 }
-
----
-
