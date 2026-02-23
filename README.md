@@ -73,6 +73,3 @@ The API expects a JSON object with a key named `symptoms` containing a list of s
 
 ---
 
-## ⚠️ Medical Disclaimer
-
-This project is part of a **campus placement portfolio** and is for **educational purposes only**. It should not be used as a substitute for professional medical advice, diagnosis, or treatment.
