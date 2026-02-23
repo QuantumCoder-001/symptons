@@ -57,9 +57,19 @@ To get a prediction, the frontend should send a list of symptom names. The backe
 
 * **1** = User has this symptom.
 * **0** = User does NOT have this symptom.
+## 🌐 Live API Integration (For Web Developers)
 
-> [!IMPORTANT]  
-> The order of the 0s and 1s **must match** the `symptom_features.json` perfectly!
+The model is deployed as a live REST API on Render. You can send symptoms to it and receive the top 3 predicted diseases.
+
+### 📍 API Endpoint
+**POST** `https://symptons-api.onrender.com/predict`
+
+### 📥 Request Body (JSON)
+The API expects a JSON object with a key named `symptoms` containing a list of symptom names.
+```json
+{
+  "symptoms": ["itching", "skin_rash", "fatigue"]
+}
 
 ---
 
